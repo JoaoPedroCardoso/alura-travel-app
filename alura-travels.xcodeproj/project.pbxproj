@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70425657216B8AA80089946E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70425656216B8AA80089946E /* AppDelegate.swift */; };
+		70425659216B8AA90089946E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70425658216B8AA90089946E /* ViewController.swift */; };
+		7042565C216B8AA90089946E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7042565A216B8AA90089946E /* Main.storyboard */; };
+		7042565E216B8AAB0089946E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7042565D216B8AAB0089946E /* Assets.xcassets */; };
+		70425661216B8AAB0089946E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7042565F216B8AAB0089946E /* LaunchScreen.storyboard */; };
+		7042566C216B8AAB0089946E /* alura_travelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042566B216B8AAB0089946E /* alura_travelsTests.swift */; };
+		70425677216B8AAB0089946E /* alura_travelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70425676216B8AAB0089946E /* alura_travelsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70425668216B8AAB0089946E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7042564B216B8AA80089946E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70425652216B8AA80089946E;
+			remoteInfo = "alura-travels";
+		};
+		70425673216B8AAB0089946E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7042564B216B8AA80089946E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70425652216B8AA80089946E;
+			remoteInfo = "alura-travels";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70425653216B8AA80089946E /* alura-travels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alura-travels.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70425656216B8AA80089946E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70425658216B8AA90089946E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7042565B216B8AA90089946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7042565D216B8AAB0089946E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70425660216B8AAB0089946E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70425662216B8AAB0089946E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70425667216B8AAB0089946E /* alura-travelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alura-travelsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7042566B216B8AAB0089946E /* alura_travelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alura_travelsTests.swift; sourceTree = "<group>"; };
+		7042566D216B8AAB0089946E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70425672216B8AAB0089946E /* alura-travelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alura-travelsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70425676216B8AAB0089946E /* alura_travelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alura_travelsUITests.swift; sourceTree = "<group>"; };
+		70425678216B8AAB0089946E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70425650216B8AA80089946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70425664216B8AAB0089946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7042566F216B8AAB0089946E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7042564A216B8AA80089946E = {
+			isa = PBXGroup;
+			children = (
+				70425655216B8AA80089946E /* alura-travels */,
+				7042566A216B8AAB0089946E /* alura-travelsTests */,
+				70425675216B8AAB0089946E /* alura-travelsUITests */,
+				70425654216B8AA80089946E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70425654216B8AA80089946E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70425653216B8AA80089946E /* alura-travels.app */,
+				70425667216B8AAB0089946E /* alura-travelsTests.xctest */,
+				70425672216B8AAB0089946E /* alura-travelsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70425655216B8AA80089946E /* alura-travels */ = {
+			isa = PBXGroup;
+			children = (
+				70425656216B8AA80089946E /* AppDelegate.swift */,
+				70425658216B8AA90089946E /* ViewController.swift */,
+				7042565A216B8AA90089946E /* Main.storyboard */,
+				7042565D216B8AAB0089946E /* Assets.xcassets */,
+				7042565F216B8AAB0089946E /* LaunchScreen.storyboard */,
+				70425662216B8AAB0089946E /* Info.plist */,
+			);
+			path = "alura-travels";
+			sourceTree = "<group>";
+		};
+		7042566A216B8AAB0089946E /* alura-travelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7042566B216B8AAB0089946E /* alura_travelsTests.swift */,
+				7042566D216B8AAB0089946E /* Info.plist */,
+			);
+			path = "alura-travelsTests";
+			sourceTree = "<group>";
+		};
+		70425675216B8AAB0089946E /* alura-travelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				70425676216B8AAB0089946E /* alura_travelsUITests.swift */,
+				70425678216B8AAB0089946E /* Info.plist */,
+			);
+			path = "alura-travelsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70425652216B8AA80089946E /* alura-travels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7042567B216B8AAB0089946E /* Build configuration list for PBXNativeTarget "alura-travels" */;
+			buildPhases = (
+				7042564F216B8AA80089946E /* Sources */,
+				70425650216B8AA80089946E /* Frameworks */,
+				70425651216B8AA80089946E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "alura-travels";
+			productName = "alura-travels";
+			productReference = 70425653216B8AA80089946E /* alura-travels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70425666216B8AAB0089946E /* alura-travelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7042567E216B8AAB0089946E /* Build configuration list for PBXNativeTarget "alura-travelsTests" */;
+			buildPhases = (
+				70425663216B8AAB0089946E /* Sources */,
+				70425664216B8AAB0089946E /* Frameworks */,
+				70425665216B8AAB0089946E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70425669216B8AAB0089946E /* PBXTargetDependency */,
+			);
+			name = "alura-travelsTests";
+			productName = "alura-travelsTests";
+			productReference = 70425667216B8AAB0089946E /* alura-travelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70425671216B8AAB0089946E /* alura-travelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70425681216B8AAB0089946E /* Build configuration list for PBXNativeTarget "alura-travelsUITests" */;
+			buildPhases = (
+				7042566E216B8AAB0089946E /* Sources */,
+				7042566F216B8AAB0089946E /* Frameworks */,
+				70425670216B8AAB0089946E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70425674216B8AAB0089946E /* PBXTargetDependency */,
+			);
+			name = "alura-travelsUITests";
+			productName = "alura-travelsUITests";
+			productReference = 70425672216B8AAB0089946E /* alura-travelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7042564B216B8AA80089946E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "João Pedro Cardoso de Araújo";
+				TargetAttributes = {
+					70425652216B8AA80089946E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					70425666216B8AAB0089946E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 70425652216B8AA80089946E;
+					};
+					70425671216B8AAB0089946E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 70425652216B8AA80089946E;
+					};
+				};
+			};
+			buildConfigurationList = 7042564E216B8AA80089946E /* Build configuration list for PBXProject "alura-travels" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7042564A216B8AA80089946E;
+			productRefGroup = 70425654216B8AA80089946E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70425652216B8AA80089946E /* alura-travels */,
+				70425666216B8AAB0089946E /* alura-travelsTests */,
+				70425671216B8AAB0089946E /* alura-travelsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70425651216B8AA80089946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70425661216B8AAB0089946E /* LaunchScreen.storyboard in Resources */,
+				7042565E216B8AAB0089946E /* Assets.xcassets in Resources */,
+				7042565C216B8AA90089946E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70425665216B8AAB0089946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70425670216B8AAB0089946E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7042564F216B8AA80089946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70425659216B8AA90089946E /* ViewController.swift in Sources */,
+				70425657216B8AA80089946E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70425663216B8AAB0089946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7042566C216B8AAB0089946E /* alura_travelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7042566E216B8AAB0089946E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70425677216B8AAB0089946E /* alura_travelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70425669216B8AAB0089946E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70425652216B8AA80089946E /* alura-travels */;
+			targetProxy = 70425668216B8AAB0089946E /* PBXContainerItemProxy */;
+		};
+		70425674216B8AAB0089946E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70425652216B8AA80089946E /* alura-travels */;
+			targetProxy = 70425673216B8AAB0089946E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7042565A216B8AA90089946E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7042565B216B8AA90089946E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7042565F216B8AAB0089946E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70425660216B8AAB0089946E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70425679216B8AAB0089946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7042567A216B8AAB0089946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7042567C216B8AAB0089946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8C5LB8ALQ;
+				INFOPLIST_FILE = "alura-travels/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura-travels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7042567D216B8AAB0089946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8C5LB8ALQ;
+				INFOPLIST_FILE = "alura-travels/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura-travels";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7042567F216B8AAB0089946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8C5LB8ALQ;
+				INFOPLIST_FILE = "alura-travelsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura-travelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alura-travels.app/alura-travels";
+			};
+			name = Debug;
+		};
+		70425680216B8AAB0089946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8C5LB8ALQ;
+				INFOPLIST_FILE = "alura-travelsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura-travelsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alura-travels.app/alura-travels";
+			};
+			name = Release;
+		};
+		70425682216B8AAB0089946E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8C5LB8ALQ;
+				INFOPLIST_FILE = "alura-travelsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura-travelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "alura-travels";
+			};
+			name = Debug;
+		};
+		70425683216B8AAB0089946E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8C5LB8ALQ;
+				INFOPLIST_FILE = "alura-travelsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.alura-travelsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "alura-travels";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7042564E216B8AA80089946E /* Build configuration list for PBXProject "alura-travels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70425679216B8AAB0089946E /* Debug */,
+				7042567A216B8AAB0089946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7042567B216B8AAB0089946E /* Build configuration list for PBXNativeTarget "alura-travels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7042567C216B8AAB0089946E /* Debug */,
+				7042567D216B8AAB0089946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7042567E216B8AAB0089946E /* Build configuration list for PBXNativeTarget "alura-travelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7042567F216B8AAB0089946E /* Debug */,
+				70425680216B8AAB0089946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70425681216B8AAB0089946E /* Build configuration list for PBXNativeTarget "alura-travelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70425682216B8AAB0089946E /* Debug */,
+				70425683216B8AAB0089946E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7042564B216B8AA80089946E /* Project object */;
+}
