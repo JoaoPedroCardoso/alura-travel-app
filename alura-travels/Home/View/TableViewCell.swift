@@ -10,6 +10,4 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var imageTravel: UIImageView!
     
-    
-    
 }

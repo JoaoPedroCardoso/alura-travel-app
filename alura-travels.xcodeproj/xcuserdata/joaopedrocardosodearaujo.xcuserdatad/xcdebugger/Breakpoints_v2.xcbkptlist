@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "alura-travels/ViewController.swift"
+            timestampString = "560787510.969934"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "alura_travels.ViewController.flightsList.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "alura-travels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joaopedrocardosodearaujo/git/IOS/alura-travels/alura-travels/ViewController.swift"
+                  timestampString = "560699402.7948951"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "alura_travels.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; alura_travels.ViewController"
+                  moduleName = "alura-travels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joaopedrocardosodearaujo/git/IOS/alura-travels/alura-travels/ViewController.swift"
+                  timestampString = "560699402.797681"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "alura_travels.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;alura_travels.ViewController&gt;"
+                  moduleName = "alura-travels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joaopedrocardosodearaujo/git/IOS/alura-travels/alura-travels/ViewController.swift"
+                  timestampString = "560699402.799751"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
