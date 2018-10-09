@@ -2,7 +2,7 @@ import UIKit
 
 class Travel: NSObject {
 
-    let title: String
+    @objc let title: String
     let quantityOfDays: Int
     let price: String
     let imagePath: String

@@ -66,5 +66,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "alura-travels/Model/Travel.swift"
+            timestampString = "560809918.457352"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "Travel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "alura_travels.Travel.__allocating_init(title: Swift.String, quantityOfDays: Swift.Int, price: Swift.String, imagePath: Swift.String) -&gt; alura_travels.Travel"
+                  moduleName = "alura-travels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joaopedrocardosodearaujo/git/IOS/alura-travels/alura-travels/Model/Travel.swift"
+                  timestampString = "560808233.721053"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "14">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "alura_travels.Travel.init(title: Swift.String, quantityOfDays: Swift.Int, price: Swift.String, imagePath: Swift.String) -&gt; alura_travels.Travel"
+                  moduleName = "alura-travels"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/joaopedrocardosodearaujo/git/IOS/alura-travels/alura-travels/Model/Travel.swift"
+                  timestampString = "560808233.723121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "63">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
