@@ -8,7 +8,7 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
     
     @IBOutlet weak var packagesCountLabel: UILabel!
     @IBOutlet weak var searchTravel: UISearchBar!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         listFlights = listWithAllFlights
@@ -46,8 +46,10 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let package = listFlights[indexPath.item]
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "travelDatails") as! TravelDetailsViewController
+        viewController.packageSelected = package
         self.present(viewController, animated: true, completion: nil)
     }
     
@@ -55,10 +57,9 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
         listFlights = listWithAllFlights
         
         if searchText != "" {
-            let listTravelFilter: NSPredicate = NSPredicate(format: "self.title contains[c] %@", searchText)
+            let listTravelFilter: NSPredicate = NSPredicate(format: "self.travel.title contains[c] %@", searchText)
             
             let filterList = (listWithAllFlights as NSArray).filtered(using: listTravelFilter) as! Array<TravelPackage>
-            
             listFlights = filterList
         }
         self.packagesCountLabel.text = self.updatePackageCountLabel()
@@ -67,6 +68,10 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
     
     func updatePackageCountLabel() -> String {
         return listFlights.count == 1 ? "1 package found" : "\(listFlights.count) packages founds "
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
     
 }

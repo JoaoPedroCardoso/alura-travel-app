@@ -5,7 +5,7 @@ class TravelPackage: NSObject {
     let hotelName: String
     let descriptions: String
     let travelDate: String
-    let travel: Travel
+    @objc let travel: Travel
     
     init(hotelName: String, descriptions: String, travelDate: String, travel: Travel) {
         self.hotelName = hotelName
