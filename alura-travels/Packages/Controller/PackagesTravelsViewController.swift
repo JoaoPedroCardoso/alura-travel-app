@@ -1,10 +1,10 @@
 import UIKit
 
-class PackagesTravelsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
+class PackagesTravelsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate, UICollectionViewDelegate {
 
     @IBOutlet weak var collectionPackagesTravel: UICollectionView!
-    let listWithAllFlights: Array<Travel> = TravelDAO().returnAllTravels()
-    var listFlights: Array<Travel> = []
+    let listWithAllFlights: Array<TravelPackage> = TravelPackageDAO().returnAllTravelPackages()
+    var listFlights: Array<TravelPackage> = []
     
     @IBOutlet weak var packagesCountLabel: UILabel!
     @IBOutlet weak var searchTravel: UISearchBar!
@@ -21,12 +21,12 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let packageCell = collectionView.dequeueReusableCell(withReuseIdentifier: "packageCell", for: indexPath) as! PackagesTravelsCollectionViewCell
         
-        let travel = listFlights[indexPath.item]
+        let travelPackage = listFlights[indexPath.item]
         
-        packageCell.titleLabel.text = travel.title
-        packageCell.quantityOfDaysLabel.text = "\(travel.quantityOfDays) days"
-        packageCell.priceLabel.text = "from R$ \(travel.price)"
-        packageCell.imageTravel.image = UIImage(named: travel.imagePath)
+        packageCell.titleLabel.text = travelPackage.travel.title
+        packageCell.quantityOfDaysLabel.text = "\(travelPackage.travel.quantityOfDays) days"
+        packageCell.priceLabel.text = "from R$ \(travelPackage.travel.price)"
+        packageCell.imageTravel.image = UIImage(named: travelPackage.travel.imagePath)
         
         packageCell.layer.borderWidth = 0.5
         packageCell.layer.borderColor = UIColor(red: 85.0/255.0, green: 85.0/255.0, blue: 85.0/255.0, alpha: 1).cgColor
@@ -45,13 +45,19 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
         return CGSize(width: (collectionView.bounds.width / 2) - 10, height: 160)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "travelDatails") as! TravelDetailsViewController
+        self.present(viewController, animated: true, completion: nil)
+    }
+    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         listFlights = listWithAllFlights
         
         if searchText != "" {
             let listTravelFilter: NSPredicate = NSPredicate(format: "self.title contains[c] %@", searchText)
             
-            let filterList = (listWithAllFlights as NSArray).filtered(using: listTravelFilter) as! Array<Travel>
+            let filterList = (listWithAllFlights as NSArray).filtered(using: listTravelFilter) as! Array<TravelPackage>
             
             listFlights = filterList
         }
@@ -62,4 +68,5 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
     func updatePackageCountLabel() -> String {
         return listFlights.count == 1 ? "1 package found" : "\(listFlights.count) packages founds "
     }
+    
 }
