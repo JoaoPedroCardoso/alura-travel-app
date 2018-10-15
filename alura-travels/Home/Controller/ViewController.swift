@@ -25,12 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let travel = flightsList[indexPath.row]
         
-        cell.titleLabel.text = travel.title
-        cell.quantityOfDaysLabel.text = "\(travel.quantityOfDays) days"
-        cell.priceLabel.text = "R$ \(travel.price)"
-        cell.imageTravel.image = UIImage(named: travel.imagePath)
-        cell.imageTravel.layer.cornerRadius = 10
-        cell.imageTravel.layer.masksToBounds = true
+        cell.cellConfig(travel)
         
         return cell
     }

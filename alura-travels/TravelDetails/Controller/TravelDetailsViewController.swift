@@ -34,7 +34,9 @@ class TravelDetailsViewController: UIViewController {
     }
 
     @IBAction func backButton(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        if let navigation = self.navigationController {
+            navigation.popToRootViewController(animated: true)
+        }
     }
     
     @objc func tallScroll(notification: Notification){
@@ -67,6 +69,13 @@ class TravelDetailsViewController: UIViewController {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
+    }
+    
+    @IBAction func finishButtun(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "paymentConfirmation") as! PaymentConfirmationViewController
+        controller.packageTravel = packageSelected
+        self.navigationController?.pushViewController(controller, animated: true)
     }
     
 }

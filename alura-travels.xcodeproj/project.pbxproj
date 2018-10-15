@@ -39,6 +39,7 @@
 		70425708216F8B490089946E /* img11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 704256F7216F8B480089946E /* img11.jpg */; };
 		70425709216F8B490089946E /* img10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 704256F8216F8B480089946E /* img10.jpg */; };
 		7042570A216F8B490089946E /* icon_hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 704256F9216F8B480089946E /* icon_hotel.png */; };
+		7042570E2174CB910089946E /* PaymentConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042570D2174CB910089946E /* PaymentConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		704256F7216F8B480089946E /* img11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img11.jpg; sourceTree = "<group>"; };
 		704256F8216F8B480089946E /* img10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img10.jpg; sourceTree = "<group>"; };
 		704256F9216F8B480089946E /* icon_hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_hotel.png; sourceTree = "<group>"; };
+		7042570D2174CB910089946E /* PaymentConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				70425698216CF0600089946E /* Home */,
 				704256A2216D17220089946E /* Packages */,
 				704256BA216E65F60089946E /* TravelDetails */,
+				7042570B2174CB330089946E /* PaymentConfirmation */,
 				7042569B216CF0B50089946E /* TravelDao */,
 				704256E8216F8B480089946E /* Assets */,
 				7042565D216B8AAB0089946E /* Assets.xcassets */,
@@ -294,6 +297,22 @@
 				704256F9216F8B480089946E /* icon_hotel.png */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		7042570B2174CB330089946E /* PaymentConfirmation */ = {
+			isa = PBXGroup;
+			children = (
+				7042570C2174CB6E0089946E /* Controller */,
+			);
+			path = PaymentConfirmation;
+			sourceTree = "<group>";
+		};
+		7042570C2174CB6E0089946E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7042570D2174CB910089946E /* PaymentConfirmationViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,6 +467,7 @@
 				704256E7216F8B170089946E /* TravelPackageDAO.swift in Sources */,
 				7042568B216CED9C0089946E /* TableViewCell.swift in Sources */,
 				70425689216CE7750089946E /* TravelDAO.swift in Sources */,
+				7042570E2174CB910089946E /* PaymentConfirmationViewController.swift in Sources */,
 				70425685216CE5960089946E /* Travel.swift in Sources */,
 				70425659216B8AA90089946E /* ViewController.swift in Sources */,
 				704256BE216E66430089946E /* TravelDetailsViewController.swift in Sources */,
