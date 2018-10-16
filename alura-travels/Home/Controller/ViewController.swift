@@ -24,7 +24,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
         
         let travel = flightsList[indexPath.row]
-        
         cell.cellConfig(travel)
         
         return cell

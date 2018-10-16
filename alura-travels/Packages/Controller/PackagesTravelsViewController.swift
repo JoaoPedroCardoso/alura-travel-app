@@ -22,17 +22,7 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
         let packageCell = collectionView.dequeueReusableCell(withReuseIdentifier: "packageCell", for: indexPath) as! PackagesTravelsCollectionViewCell
         
         let travelPackage = listFlights[indexPath.item]
-        
-        packageCell.titleLabel.text = travelPackage.travel.title
-        packageCell.quantityOfDaysLabel.text = "\(travelPackage.travel.quantityOfDays) days"
-        packageCell.priceLabel.text = "from R$ \(travelPackage.travel.price)"
-        packageCell.imageTravel.image = UIImage(named: travelPackage.travel.imagePath)
-        
-        packageCell.layer.borderWidth = 0.5
-        packageCell.layer.borderColor = UIColor(red: 85.0/255.0, green: 85.0/255.0, blue: 85.0/255.0, alpha: 1).cgColor
-        
-        packageCell.layer.cornerRadius = 10
-        packageCell.layer.masksToBounds = true
+        packageCell.configCell(travelPackage)
         
         return packageCell
     }
@@ -62,6 +52,7 @@ class PackagesTravelsViewController: UIViewController, UICollectionViewDataSourc
             let filterList = (listWithAllFlights as NSArray).filtered(using: listTravelFilter) as! Array<TravelPackage>
             listFlights = filterList
         }
+        
         self.packagesCountLabel.text = self.updatePackageCountLabel()
         collectionPackagesTravel.reloadData()
     }
